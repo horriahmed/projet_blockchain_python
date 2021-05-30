@@ -1,6 +1,6 @@
 [submodule "pybind11"]
 	path = pybind11
-	url = https://github.com/pybind/pybind11
+	url = https://github.com/pybind/pybind11.git
 	branch = stable
 [submodule "json"]
 	path = json
@@ -8,3 +8,6 @@
 [submodule "pybind11_json"]
 	path = pybind11_json
 	url = https://github.com/pybind/pybind11_json.git
+[submodule "component_hachage/sha256"]
+	path = component_hachage/sha256
+	url = https://github.com/jluuM2/sha256.git
