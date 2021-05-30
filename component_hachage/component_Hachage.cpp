@@ -9,7 +9,7 @@
 
 
 
-using std::cout;
+using std::cout; using std::endl;
 
 class component_Hachage {
     public:
@@ -17,7 +17,13 @@ class component_Hachage {
         ~component_Hachage() {}
 
         std::string SHA256 (std::string input){
-            std::string result = sha256(input);
+            std::string result;
+            if(input.empty()) {
+                cout << "ERROR input is empty !!" <<endl;
+            }else {
+                result = sha256(input);
+
+            }
             return result;
         }
 
